@@ -1,0 +1,24 @@
+Steps to use jhipster
+
+-- Install jhipster 
+	npm install -g generator-jhipster
+
+-- Create project using command  # jhipster
+	-- answer questions to create project
+
+-- Create entity structure
+	1. use command # jhipster entity book
+	2. JDL-studio (https://www.jhipster.tech/jdl-studio/)
+	
+	-- generates basic crud operation and validations on it.
+	
+-- Run springboot apllication
+-- To access UI - run with npm start (first install npm in local)
+
+-- provide liquibase facilty to manage database and database version
+
+-- Also generates dummy data sql file to add data in database
+-- Manage local git version control
+-- OPENAPI integration 
+-- Dockerization
+-- internationalization

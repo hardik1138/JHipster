@@ -1,0 +1,40 @@
+
+entity Member {
+	id String,
+	name String,
+    firstname String,
+    lastname String
+}
+
+entity Book {
+	id String,
+    name String,
+    code String,
+    author String
+}
+
+entity Address{
+	id String,
+    houseNo Integer,
+    street String,
+    city String,
+    state String,
+    pincode Integer 
+}
+
+dto * with mapstruct
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Member to Book{member} ,
+
+}
+
+relationship OneToMany {
+	Member to Address{member},
+
+}
+
+// Set service options to all except few
+service all with serviceImpl
+
