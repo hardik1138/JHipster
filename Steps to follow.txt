@@ -22,3 +22,6 @@ Steps to use jhipster
 -- OPENAPI integration 
 -- Dockerization
 -- internationalization
+
+--
+https://www.jhipster.tech/jdl-studio/
