@@ -23,5 +23,5 @@ Steps to use jhipster
 -- Dockerization
 -- internationalization
 
---
+-- Import Entity
 https://www.jhipster.tech/jdl-studio/
